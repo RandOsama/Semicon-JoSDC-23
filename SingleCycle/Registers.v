@@ -1,7 +1,7 @@
   module Registers(clk,reset,Rr1,Rr2,WriteRegister,regWrite,WriteData,Rd1,Rd2);
 	input clk ,reset;		
 	input [4:0]Rr1,Rr2,WriteRegister;
-   input [31:0]WriteData;
+  	input [31:0]WriteData;
 	input regWrite;
 	output [31:0] Rd1,Rd2;
 	
@@ -10,7 +10,7 @@
 
 	assign Rd1 = registers[Rr1];
 	
-   assign Rd2 = registers[Rr2];
+   	assign Rd2 = registers[Rr2];
 	
    always @(posedge clk) begin
 	
@@ -24,7 +24,7 @@
 			registers[6] <= 0;
 			registers[7] <= 0;
 			registers[8] <= 0;
-			registers[9] <= 'd100;
+			registers[9] <= 0;
 			registers[10] <= 0;
 			registers[11] <= 0;
 			registers[12] <= 0;
