@@ -13,9 +13,7 @@ module fetch_Cycle(
 		output reg	  prediction_Reg , hit_Reg ,
 		output reg [3:0] GHR_value_Reg ,
 		output reg [4:0]   Pc_Reg, // lower 5 bits of pc
-		output reg [31:0]  InstrReg//,
-		//output hit ,Hit_ifReadFromE,
-		//output [31:0] BTB_wire_mem_F,BTB_wire_mem_E
+		output reg [31:0]  InstrReg
 		);
 
 
