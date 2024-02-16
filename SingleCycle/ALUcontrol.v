@@ -28,9 +28,3 @@ module ALUcontrol(ALUop,funct,ALUout);
 		endcase
 		end
 endmodule
-
-
-//2'b11 : case(ori_and)
-				  //1'b1 : ALUout = 4'b0001;      (another option) --> in this case we need to add new control signal to the main control 
-		        //1'b0 : ALUout = 4'b0000;                           and this signal will be 1 when the inst is orri and 0 in other cases.
-		
