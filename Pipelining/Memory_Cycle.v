@@ -14,10 +14,10 @@ assign ALU_Result_Mout = AluResult_M ;
 wire [31:0] dataLoad;
 
 //module Data_Memory(clk,Addr,WriteData,MemRead,MemWrite,ReadData);
-Data_Memory Data_mem(clk,AluResult_M,ReadData2_M,MemRead_M,MemWrite_M,dataLoad);
+//Data_Memory Data_mem(clk,AluResult_M,ReadData2_M,MemRead_M,MemWrite_M,dataLoad);
 
 
-//datamem1 data_memory(AluResult_M[4:0],~clk,ReadData2_M,MemWrite_M,dataLoad);
+datamem1 data_memory(AluResult_M[4:0],~clk,ReadData2_M,MemWrite_M,dataLoad);
 
 
 always@(posedge clk)begin
