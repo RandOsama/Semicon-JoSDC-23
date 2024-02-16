@@ -22,8 +22,6 @@ wire [15:0]imm;
 wire [25:0]jumpImm;
 wire [5:0]Op,funct;
 wire [4:0]rd,rs2,rs1,shamt;
-//module Pc(clk,Resetn,Din,Qout);
-//Pc pc(clk,reset,pc_next,pcTop);
 
 reg [31:0] pcTop;
 always @(posedge reset or posedge clk)
