@@ -1,8 +1,13 @@
-module pipeline_TopLevel(clk , reset);
-input  clk , reset ;
- 
+module pipeline_TopLevel(MAX10_CLK1_50 , reset,Pc_D);
+input  MAX10_CLK1_50 , reset ;
+output Pc_D;
 
+pll1	pll1_inst (
+	.inclk0 ( MAX10_CLK1_50 ),
+	.c0 ( clk )
+	);
 
+wire clk;
 //(_D) : output of F_Cycle (in decode cycle)
 wire [31:0] instruction_D  ; 
 wire Branch_Dout,bne_Dout; // these signals come from control unit (output in same cycle without clock)

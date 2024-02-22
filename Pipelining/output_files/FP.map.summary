@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Thu Feb 22 03:17:31 2024
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : FP
+Top-level Entity Name : pipeline_TopLevel
+Family : MAX 10
+Total logic elements : 4,079
+    Total combinational functions : 3,007
+    Dedicated logic registers : 1,448
+Total registers : 1448
+Total pins : 7
+Total virtual pins : 0
+Total memory bits : 2,048
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0
