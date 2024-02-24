@@ -1,5 +1,5 @@
 Analysis & Synthesis report for FP
-Thu Feb 22 03:17:31 2024
+Thu Feb 22 03:29:01 2024
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -78,13 +78,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Feb 22 03:17:31 2024       ;
+; Analysis & Synthesis Status        ; Successful - Thu Feb 22 03:29:01 2024       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; FP                                          ;
 ; Top-level Entity Name              ; pipeline_TopLevel                           ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 4,079                                       ;
-;     Total combinational functions  ; 3,007                                       ;
+; Total logic elements               ; 4,082                                       ;
+;     Total combinational functions  ; 3,010                                       ;
 ;     Dedicated logic registers      ; 1,448                                       ;
 ; Total registers                    ; 1448                                        ;
 ; Total pins                         ; 7                                           ;
@@ -203,7 +203,7 @@ https://fpgasoftware.intel.com/eula.
 ;     Processor 6            ;   0.1%      ;
 ;     Processor 7            ;   0.1%      ;
 ;     Processor 8            ;   0.1%      ;
-;     Processors 9-14        ;   0.0%      ;
+;     Processors 9-14        ;   0.1%      ;
 +----------------------------+-------------+
 
 
@@ -261,16 +261,16 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+------------------------------------------------------------------------------------+
 ; Resource                                    ; Usage                                                                              ;
 +---------------------------------------------+------------------------------------------------------------------------------------+
-; Estimated Total logic elements              ; 4,079                                                                              ;
+; Estimated Total logic elements              ; 4,082                                                                              ;
 ;                                             ;                                                                                    ;
-; Total combinational functions               ; 3007                                                                               ;
+; Total combinational functions               ; 3010                                                                               ;
 ; Logic element usage by number of LUT inputs ;                                                                                    ;
-;     -- 4 input functions                    ; 2318                                                                               ;
-;     -- 3 input functions                    ; 496                                                                                ;
+;     -- 4 input functions                    ; 2319                                                                               ;
+;     -- 3 input functions                    ; 498                                                                                ;
 ;     -- <=2 input functions                  ; 193                                                                                ;
 ;                                             ;                                                                                    ;
 ; Logic elements by mode                      ;                                                                                    ;
-;     -- normal mode                          ; 2923                                                                               ;
+;     -- normal mode                          ; 2926                                                                               ;
 ;     -- arithmetic mode                      ; 84                                                                                 ;
 ;                                             ;                                                                                    ;
 ; Total registers                             ; 1448                                                                               ;
@@ -287,7 +287,7 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;                                                                                    ;
 ; Maximum fan-out node                        ; pll1:pll1_inst|altpll:altpll_component|pll1_altpll:auto_generated|wire_pll1_clk[0] ;
 ; Maximum fan-out                             ; 1482                                                                               ;
-; Total fan-out                               ; 15739                                                                              ;
+; Total fan-out                               ; 15749                                                                              ;
 ; Average fan-out                             ; 3.47                                                                               ;
 +---------------------------------------------+------------------------------------------------------------------------------------+
 
@@ -297,12 +297,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
 ; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                                                                     ; Entity Name             ; Library Name ;
 +----------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
-; |pipeline_TopLevel                           ; 3007 (0)            ; 1448 (0)                  ; 2048        ; 0          ; 0            ; 0       ; 0         ; 7    ; 0            ; 0          ; |pipeline_TopLevel                                                                                                      ; pipeline_TopLevel       ; work         ;
-;    |Decode_Cycle:D_c|                        ; 1679 (191)          ; 1113 (121)                ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |pipeline_TopLevel|Decode_Cycle:D_c                                                                                     ; Decode_Cycle            ; work         ;
+; |pipeline_TopLevel                           ; 3010 (0)            ; 1448 (0)                  ; 2048        ; 0          ; 0            ; 0       ; 0         ; 7    ; 0            ; 0          ; |pipeline_TopLevel                                                                                                      ; pipeline_TopLevel       ; work         ;
+;    |Decode_Cycle:D_c|                        ; 1682 (187)          ; 1113 (121)                ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |pipeline_TopLevel|Decode_Cycle:D_c                                                                                     ; Decode_Cycle            ; work         ;
 ;       |Adder32:tagetAddressAdder|            ; 10 (10)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |pipeline_TopLevel|Decode_Cycle:D_c|Adder32:tagetAddressAdder                                                           ; Adder32                 ; work         ;
 ;       |Control_pip:Cu|                       ; 14 (14)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |pipeline_TopLevel|Decode_Cycle:D_c|Control_pip:Cu                                                                      ; Control_pip             ; work         ;
-;       |Mux2_to1:forward_rs1|                 ; 44 (44)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |pipeline_TopLevel|Decode_Cycle:D_c|Mux2_to1:forward_rs1                                                                ; Mux2_to1                ; work         ;
-;       |Mux2_to1:forward_rs2|                 ; 46 (46)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |pipeline_TopLevel|Decode_Cycle:D_c|Mux2_to1:forward_rs2                                                                ; Mux2_to1                ; work         ;
+;       |Mux2_to1:forward_rs1|                 ; 47 (47)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |pipeline_TopLevel|Decode_Cycle:D_c|Mux2_to1:forward_rs1                                                                ; Mux2_to1                ; work         ;
+;       |Mux2_to1:forward_rs2|                 ; 50 (50)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |pipeline_TopLevel|Decode_Cycle:D_c|Mux2_to1:forward_rs2                                                                ; Mux2_to1                ; work         ;
 ;       |Register_File:rf|                     ; 1374 (1374)         ; 992 (992)                 ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |pipeline_TopLevel|Decode_Cycle:D_c|Register_File:rf                                                                    ; Register_File           ; work         ;
 ;    |Excuation_Cycle:E_c|                     ; 908 (276)           ; 78 (78)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |pipeline_TopLevel|Excuation_Cycle:E_c                                                                                  ; Excuation_Cycle         ; work         ;
 ;       |ALUcontrol:Alucontrol|                ; 15 (15)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |pipeline_TopLevel|Excuation_Cycle:E_c|ALUcontrol:Alucontrol                                                            ; ALUcontrol              ; work         ;
@@ -1758,16 +1758,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     SCLR              ; 36                          ;
 ;     SCLR SLD          ; 16                          ;
 ;     plain             ; 240                         ;
-; cycloneiii_lcell_comb ; 3007                        ;
+; cycloneiii_lcell_comb ; 3010                        ;
 ;     arith             ; 84                          ;
 ;         2 data inputs ; 17                          ;
 ;         3 data inputs ; 67                          ;
-;     normal            ; 2923                        ;
+;     normal            ; 2926                        ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 3                           ;
 ;         2 data inputs ; 172                         ;
-;         3 data inputs ; 429                         ;
-;         4 data inputs ; 2318                        ;
+;         3 data inputs ; 431                         ;
+;         4 data inputs ; 2319                        ;
 ; cycloneiii_pll        ; 1                           ;
 ; cycloneiii_ram_block  ; 64                          ;
 ;                       ;                             ;
@@ -1791,7 +1791,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Thu Feb 22 03:17:18 2024
+    Info: Processing started: Thu Feb 22 03:28:48 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off FP -c FP
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 14 of the 14 processors detected
@@ -1988,17 +1988,17 @@ Info (17049): 220 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/output_files/FP.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 4197 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 4200 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 5 output pins
-    Info (21061): Implemented 4125 logic cells
+    Info (21061): Implemented 4128 logic cells
     Info (21064): Implemented 64 RAM segments
     Info (21065): Implemented 1 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 9 warnings
-    Info: Peak virtual memory: 4871 megabytes
-    Info: Processing ended: Thu Feb 22 03:17:31 2024
+    Info: Peak virtual memory: 4874 megabytes
+    Info: Processing ended: Thu Feb 22 03:29:01 2024
     Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
 
 
 +------------------------------------------+
