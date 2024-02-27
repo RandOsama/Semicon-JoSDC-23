@@ -11,11 +11,11 @@ module Register_File(
     integer i; 
      
 
-    always @(negedge clk) begin
+    always @(posedge clk, posedge reset) begin
 		  if(reset)begin
 				for (i=0 ; i<32 ; i= i +1)
 					mem [i] = 0 ;
-				//mem[28] = 5;
+				mem[9] = 'd100;
 		  end
         else if (regWrite && (WriteRegister != 5'b00000)) begin
             mem[WriteRegister] <= WriteData;

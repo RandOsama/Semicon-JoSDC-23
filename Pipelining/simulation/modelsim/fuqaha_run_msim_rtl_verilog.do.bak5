@@ -1,0 +1,39 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/WriteBack_Cycle.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/sign_extention (1).v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/Register_File (1).v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/pipeline_TopLevel.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/Mux3to_1_d.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/Mux2_to1.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/Memory_Cycle.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/is_jump.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/Hazard_Detection_Unit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/Global_History_Register.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/forwarding_Unit.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/fetch_Cycle.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/Excuation_Cycle.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/Direction_Predictor.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/Decode_Cycle.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/Control_pip.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/Branch_Target_Buffer.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/ALUcontrol.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/Alu (1).v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/Adder32.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/datamem1.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/instmem.v}
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/Zero.v}
+
+vlog -vlog01compat -work work +incdir+C:/Users/THINKPAD/Documents/fuqaha {C:/Users/THINKPAD/Documents/fuqaha/testbench.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+
+add wave *
+view structure
+view signals
+run -all

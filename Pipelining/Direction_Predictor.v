@@ -17,7 +17,7 @@ module Direction_Predictor(clk,reset,branch_E, bne_E ,real_Value_E, opcode_F ,Pc
 	always @(posedge clk)begin
 		if(reset)
 			for(i=0 ; i <16 ; i=i+1)
-				PHTable [i] <= 2'b10 ; //initialize all entries to weakly Taken  
+				PHTable [i] <= 2'b01 ; //initialize all entries to weakly Taken  
 		else begin 
 			if(branch_E || bne_E) begin
 				if(real_Value_E)begin

@@ -1,0 +1,312 @@
+# Reading pref.tcl
+# do fuqaha_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/WriteBack_Cycle.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:50 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/WriteBack_Cycle.v 
+# -- Compiling module WriteBack_Cycle
+# 
+# Top level modules:
+# 	WriteBack_Cycle
+# End time: 16:22:50 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/sign_extention (1).v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:51 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/sign_extention (1).v 
+# -- Compiling module sign_extention
+# 
+# Top level modules:
+# 	sign_extention
+# End time: 16:22:51 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Register_File (1).v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:51 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Register_File (1).v 
+# -- Compiling module Register_File
+# 
+# Top level modules:
+# 	Register_File
+# End time: 16:22:51 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/pipeline_TopLevel.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:51 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/pipeline_TopLevel.v 
+# -- Compiling module pipeline_TopLevel
+# 
+# Top level modules:
+# 	pipeline_TopLevel
+# End time: 16:22:51 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Mux3to_1_d.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:51 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Mux3to_1_d.v 
+# -- Compiling module Mux3to_1_d
+# 
+# Top level modules:
+# 	Mux3to_1_d
+# End time: 16:22:51 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Mux2_to1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:52 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Mux2_to1.v 
+# -- Compiling module Mux2_to1
+# 
+# Top level modules:
+# 	Mux2_to1
+# End time: 16:22:52 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Memory_Cycle.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:52 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Memory_Cycle.v 
+# -- Compiling module Memory_Cycle
+# 
+# Top level modules:
+# 	Memory_Cycle
+# End time: 16:22:52 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/is_jump.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:52 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/is_jump.v 
+# -- Compiling module is_jump
+# 
+# Top level modules:
+# 	is_jump
+# End time: 16:22:52 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Hazard_Detection_Unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:52 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Hazard_Detection_Unit.v 
+# -- Compiling module Hazard_Detection_Unit
+# 
+# Top level modules:
+# 	Hazard_Detection_Unit
+# End time: 16:22:52 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Global_History_Register.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:52 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Global_History_Register.v 
+# -- Compiling module Global_History_Register
+# 
+# Top level modules:
+# 	Global_History_Register
+# End time: 16:22:52 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/forwarding_Unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:53 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/forwarding_Unit.v 
+# -- Compiling module forwarding_Unit
+# 
+# Top level modules:
+# 	forwarding_Unit
+# End time: 16:22:53 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/fetch_Cycle.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:53 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/fetch_Cycle.v 
+# -- Compiling module fetch_Cycle
+# 
+# Top level modules:
+# 	fetch_Cycle
+# End time: 16:22:53 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Excuation_Cycle.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:53 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Excuation_Cycle.v 
+# -- Compiling module Excuation_Cycle
+# 
+# Top level modules:
+# 	Excuation_Cycle
+# End time: 16:22:53 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Direction_Predictor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:53 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Direction_Predictor.v 
+# -- Compiling module Direction_Predictor
+# 
+# Top level modules:
+# 	Direction_Predictor
+# End time: 16:22:53 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Decode_Cycle.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:53 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Decode_Cycle.v 
+# -- Compiling module Decode_Cycle
+# 
+# Top level modules:
+# 	Decode_Cycle
+# End time: 16:22:54 on Feb 27,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Control_pip.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:54 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Control_pip.v 
+# -- Compiling module Control_pip
+# 
+# Top level modules:
+# 	Control_pip
+# End time: 16:22:54 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Branch_Target_Buffer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:54 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Branch_Target_Buffer.v 
+# -- Compiling module Branch_Target_Buffer
+# 
+# Top level modules:
+# 	Branch_Target_Buffer
+# End time: 16:22:54 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/ALUcontrol.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:54 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/ALUcontrol.v 
+# -- Compiling module ALUcontrol
+# 
+# Top level modules:
+# 	ALUcontrol
+# End time: 16:22:54 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Alu (1).v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:54 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Alu (1).v 
+# -- Compiling module Alu
+# 
+# Top level modules:
+# 	Alu
+# End time: 16:22:54 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Adder32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:55 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Adder32.v 
+# -- Compiling module Adder32
+# 
+# Top level modules:
+# 	Adder32
+# End time: 16:22:55 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/datamem1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:55 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/datamem1.v 
+# -- Compiling module datamem1
+# 
+# Top level modules:
+# 	datamem1
+# End time: 16:22:55 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/instmem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:55 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/instmem.v 
+# -- Compiling module instmem
+# 
+# Top level modules:
+# 	instmem
+# End time: 16:22:55 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Zero.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:55 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Zero.v 
+# -- Compiling module Zero
+# 
+# Top level modules:
+# 	Zero
+# End time: 16:22:55 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining {C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:22:55 on Feb 27,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining" C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 16:22:55 on Feb 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 16:22:56 on Feb 27,2024
+# Loading work.testbench
+# Loading work.pipeline_TopLevel
+# Loading work.fetch_Cycle
+# Loading work.is_jump
+# Loading work.Mux2_to1
+# Loading work.Global_History_Register
+# Loading work.Branch_Target_Buffer
+# Loading work.Direction_Predictor
+# Loading work.instmem
+# Loading altera_mf_ver.altsyncram
+# Loading work.Decode_Cycle
+# Loading work.Adder32
+# Loading work.Register_File
+# Loading work.Control_pip
+# Loading work.sign_extention
+# Loading work.Zero
+# Loading work.Excuation_Cycle
+# Loading work.Mux3to_1_d
+# Loading work.ALUcontrol
+# Loading work.Alu
+# Loading work.Memory_Cycle
+# Loading work.datamem1
+# Loading work.WriteBack_Cycle
+# Loading work.Hazard_Detection_Unit
+# Loading work.forwarding_Unit
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut File: C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/testbench.v Line: 54
+# ** Warning: (vsim-3722) C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/testbench.v(54): [TFMPC] - Missing connection for port 'Pc_D'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'Pc_F'. The port definition is at: C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Direction_Predictor.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/F_c/PHTable File: C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/fetch_Cycle.v Line: 69
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (32) for port 'address'. The port definition is at: C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/instmem.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/F_c/Inst File: C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/fetch_Cycle.v Line: 84
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: THINKPAD  Hostname: THINKPAD250  ProcessID: 24532
+#           Attempting to use alternate WLF file "./wlftwrve19".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftwrve19
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-PLI-3412) Memory address read on line 65 of file "data_init.ver" is out of bounds specified for readmem command.  (Current address [32], address range [0:31])    : $MODEL_TECH/../altera/verilog/src/altera_mf.v(48977)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut/M_c/data_memory/altsyncram_component/m_default/altsyncram_inst
+# ** Note: $finish    : C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/testbench.v(72)
+#    Time: 1 us  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/testbench.v line 72
+# End time: 16:35:31 on Feb 27,2024, Elapsed time: 0:12:35
+# Errors: 0, Warnings: 7

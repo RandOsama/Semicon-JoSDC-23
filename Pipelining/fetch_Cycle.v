@@ -13,8 +13,7 @@ module fetch_Cycle(
 		output reg	  prediction_Reg , hit_Reg ,
 		output reg [3:0] GHR_value_Reg ,
 		output reg [4:0]   Pc_Reg, // lower 5 bits of pc
-		output reg [31:0]  InstrReg
-		);
+		output reg [31:0]  InstrReg);
 
 
 		
@@ -54,7 +53,7 @@ Mux2_to1 Pc_SelectCorrectPcPlus1(pcTop + 32'd1,{27'd0,Pc_E} + 32'd1 ,selectCorre
 Mux2_to1 Pc_SelectCorrectTarget(BTB_wire_mem_F,BTB_wire_mem_E,selectCorrectTarget,pcTarget_wire);
 Mux2_to1 Pc_Mux1(pc_pluc1_wire,pcTarget_wire,PcMux_select,pcwire1/*jump*/);
 
-Mux2_to1 Pc_Mux(pcwire1,TargetAddress_jump,(jumpSelector && !flush_hit && !flush && !flush_JR),pcNext); /*jump*/
+Mux2_to1 Pc_Mux(pcwire1,TargetAddress_jump,jumpSelector & ~(selectCorrectPcPlus1 | selectCorrectTarget | PcMux_select),pcNext); /*jump*/
 
 
 //Global_History_Register(clk , reset , realValue_E, branch_E, bne_E, GHR_value);

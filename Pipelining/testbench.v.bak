@@ -1,0 +1,27 @@
+`timescale 1ns/1ps
+module testbench;
+
+	reg clk, reset;
+
+	pipeline_TopLevel uut(clk , reset);
+	
+	initial begin
+	
+		reset = 1'b1;
+		
+		#1 reset = 1'b0;
+		
+	end
+	
+	initial begin
+	
+		clk = 1'b0;
+	
+		forever #1 clk = ~clk;
+	
+	end
+	
+	initial # 30 $finish;
+
+
+endmodule

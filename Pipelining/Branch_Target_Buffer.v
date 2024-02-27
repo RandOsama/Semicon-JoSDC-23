@@ -32,7 +32,7 @@ module Branch_Target_Buffer(clk,reset,opcode ,
 	
 	wire [32:0] tt_F = BTB_Table [Pc_F] ; 
 	assign Target_Addrs_F = tt_F [31:0];
-	assign hit = tt_F [32] ;	
+	assign hit = tt_F[32] ;	
 	
 	wire [32:0] tt_E = BTB_Table [Pc_E] ;
 	assign Target_Addrs_E_out = tt_E[31:0] ;

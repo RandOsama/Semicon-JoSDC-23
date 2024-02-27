@@ -27,7 +27,7 @@ module Hazard_Detection_Unit(
 		select_hit = 1'b0 ;
 		flush_hit = 1'b0;
 		if(branch_E || bne_E)begin
-			if(hit_E && (prediction_E != real_Value_E))
+			if(prediction_E != real_Value_E)
 				flush = 1'b1 ;
 			else 
 				flush = 1'b0 ;

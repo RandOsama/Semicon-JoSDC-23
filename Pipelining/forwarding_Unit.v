@@ -29,13 +29,13 @@ module forwarding_Unit(
 	 always @(*) begin
         // Forwarding logic for rs1
         if (RegWrite_M && (Branch_D || bne_D) && (rd_M == rs1_D) && (rd_M != 5'b00000))
-            Forward_rs1 = 1'b1; //rs
+            Forward_rs1 = 1'b1;
         else
             Forward_rs1 = 1'b0;
 
         // Forwarding logic for rs2
         if (RegWrite_M && (Branch_D || bne_D) && (rd_M == rs2_D) && (rd_M != 5'b00000))
-            Forward_rs2 = 1'b1; //rt
+            Forward_rs2 = 1'b1;
         else
             Forward_rs2 = 1'b0;
     end

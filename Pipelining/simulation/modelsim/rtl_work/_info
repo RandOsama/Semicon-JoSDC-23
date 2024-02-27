@@ -1,0 +1,606 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/simulation/modelsim
+vAdder32
+Z1 !s110 1709040175
+!i10b 1
+!s100 >2Y7RM:h9kaMjPI:mH3>E0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;VS@SclWI4:6Pg?i6J9O71
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1707675506
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Adder32.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Adder32.v
+!i122 19
+L0 1 6
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1709040175.000000
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Adder32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Adder32.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining
+Z8 tCvgOpt 0
+n@adder32
+vAlu
+Z9 !s110 1709040174
+!i10b 1
+!s100 am]gJA==NP<]jQzc0N3ee3
+R2
+IhD>cCT9<<LQ=RZk9T63_Z3
+R3
+R0
+w1707691137
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Alu (1).v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Alu (1).v
+!i122 18
+L0 1 33
+R4
+r1
+!s85 0
+31
+Z10 !s108 1709040174.000000
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Alu (1).v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Alu (1).v|
+!i113 1
+R6
+R7
+R8
+n@alu
+vALUcontrol
+R9
+!i10b 1
+!s100 L0N1b1;3@3H:nK>PM@adS2
+R2
+IOJ>kzoLOeD7SMHO[UWzdP0
+R3
+R0
+w1707675364
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/ALUcontrol.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/ALUcontrol.v
+!i122 17
+Z11 L0 1 29
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/ALUcontrol.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/ALUcontrol.v|
+!i113 1
+R6
+R7
+R8
+n@a@l@ucontrol
+vBranch_Target_Buffer
+R9
+!i10b 1
+!s100 QHKPK;Z@njVakkY@RT47j3
+R2
+I4IJm4o7N7T4bD;_ZS?nc`0
+R3
+R0
+w1708024148
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Branch_Target_Buffer.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Branch_Target_Buffer.v
+!i122 16
+L0 1 41
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Branch_Target_Buffer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Branch_Target_Buffer.v|
+!i113 1
+R6
+R7
+R8
+n@branch_@target_@buffer
+vControl_pip
+R9
+!i10b 1
+!s100 Pj=5eB4NcU76VMNU8TJ_[0
+R2
+IZ_>QHgmWZKaDfR6NCD]WV3
+R3
+R0
+w1707683961
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Control_pip.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Control_pip.v
+!i122 15
+L0 1 57
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Control_pip.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Control_pip.v|
+!i113 1
+R6
+R7
+R8
+n@control_pip
+vdatamem1
+R1
+!i10b 1
+!s100 J3d:KJ@@jXU>Me^4?fDLC1
+R2
+I8kj8b^_AMT=9U3Da437mV3
+R3
+R0
+w1707678085
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/datamem1.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/datamem1.v
+!i122 20
+L0 40 67
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/datamem1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/datamem1.v|
+!i113 1
+R6
+R7
+R8
+vDecode_Cycle
+R9
+!i10b 1
+!s100 :7eF2ka_^l^OVG7mXPD[W2
+R2
+I8ZIlTPeAzHgYR>M5Y7VE52
+R3
+R0
+Z12 w1707998379
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Decode_Cycle.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Decode_Cycle.v
+!i122 14
+L0 1 167
+R4
+r1
+!s85 0
+31
+Z13 !s108 1709040173.000000
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Decode_Cycle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Decode_Cycle.v|
+!i113 1
+R6
+R7
+R8
+n@decode_@cycle
+vDirection_Predictor
+Z14 !s110 1709040173
+!i10b 1
+!s100 2]RBl``la@zAfBHg?@cz<1
+R2
+I<VFm10TQS;^e1ZD=4HNTm3
+R3
+R0
+w1709037505
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Direction_Predictor.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Direction_Predictor.v
+!i122 13
+L0 1 47
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Direction_Predictor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Direction_Predictor.v|
+!i113 1
+R6
+R7
+R8
+n@direction_@predictor
+vExcuation_Cycle
+R14
+!i10b 1
+!s100 a[`Nj=lda3UMmnl=bJ5aC0
+R2
+IGPXGGeffOLLdc1A`ZUjFc2
+R3
+R0
+w1707685787
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Excuation_Cycle.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Excuation_Cycle.v
+!i122 12
+L0 1 74
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Excuation_Cycle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Excuation_Cycle.v|
+!i113 1
+R6
+R7
+R8
+n@excuation_@cycle
+vfetch_Cycle
+R14
+!i10b 1
+!s100 gfo:C49DVkOK3R@1RAXID0
+R2
+IH?LWUlH[`W7jI2`VO2:1k3
+R3
+R0
+w1708030680
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/fetch_Cycle.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/fetch_Cycle.v
+!i122 11
+L0 1 108
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/fetch_Cycle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/fetch_Cycle.v|
+!i113 1
+R6
+R7
+R8
+nfetch_@cycle
+vforwarding_Unit
+R14
+!i10b 1
+!s100 1g^[7hL<B?W<JS]HIg<Ba1
+R2
+In:61d]^AY`GI[9oX@A5SB2
+R3
+R0
+w1707998561
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/forwarding_Unit.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/forwarding_Unit.v
+!i122 10
+L0 1 45
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/forwarding_Unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/forwarding_Unit.v|
+!i113 1
+R6
+R7
+R8
+nforwarding_@unit
+vGlobal_History_Register
+Z15 !s110 1709040172
+!i10b 1
+!s100 NzgHQ:IU2ZAUhfOJ2;0`43
+R2
+I:<Te<h2Ac6hKGaG[8JNN41
+R3
+R0
+w1707677161
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Global_History_Register.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Global_History_Register.v
+!i122 9
+L0 1 23
+R4
+r1
+!s85 0
+31
+Z16 !s108 1709040172.000000
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Global_History_Register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Global_History_Register.v|
+!i113 1
+R6
+R7
+R8
+n@global_@history_@register
+vHazard_Detection_Unit
+R15
+!i10b 1
+!s100 Q;;0]GW`kg?Sa8fmoS;]a0
+R2
+IJoa_NJmce:J?QE5V0CROO0
+R3
+R0
+w1707688321
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Hazard_Detection_Unit.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Hazard_Detection_Unit.v
+!i122 8
+L0 1 64
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Hazard_Detection_Unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Hazard_Detection_Unit.v|
+!i113 1
+R6
+R7
+R8
+n@hazard_@detection_@unit
+vinstmem
+R1
+!i10b 1
+!s100 Bk8K6lfK[TD3gD0B:z<ga1
+R2
+INckzSISWM@5V]Qz;[1gEM2
+R3
+R0
+w1707678190
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/instmem.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/instmem.v
+!i122 21
+L0 40 62
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/instmem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/instmem.v|
+!i113 1
+R6
+R7
+R8
+vis_jump
+R15
+!i10b 1
+!s100 oMT3zQ_4Zh^EfKo8H59dn1
+R2
+IfLnSHIzh:mh_3YD1o9SNB1
+R3
+R0
+w1707684525
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/is_jump.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/is_jump.v
+!i122 7
+R11
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/is_jump.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/is_jump.v|
+!i113 1
+R6
+R7
+R8
+vMemory_Cycle
+R15
+!i10b 1
+!s100 >l>:^WDGiRfD^jS0]W?<h3
+R2
+InZZJ2:maKUkYIYFlU:]l51
+R3
+R0
+w1707677176
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Memory_Cycle.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Memory_Cycle.v
+!i122 6
+L0 1 44
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Memory_Cycle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Memory_Cycle.v|
+!i113 1
+R6
+R7
+R8
+n@memory_@cycle
+vMux2_to1
+R15
+!i10b 1
+!s100 E<RAO4czc;GkSYzAZYhlO0
+R2
+IJFcbl8h1aNE=9JlOD2ei;3
+R3
+R0
+w1707683078
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Mux2_to1.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Mux2_to1.v
+!i122 5
+L0 1 15
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Mux2_to1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Mux2_to1.v|
+!i113 1
+R6
+R7
+R8
+n@mux2_to1
+vMux3to_1_d
+Z17 !s110 1709040171
+!i10b 1
+!s100 n1nQ52c=CPkU;43zlLZ3b0
+R2
+Ij_C^S@eZ30``i4<EeMZe<3
+R3
+R0
+w1707677190
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Mux3to_1_d.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Mux3to_1_d.v
+!i122 4
+L0 1 18
+R4
+r1
+!s85 0
+31
+Z18 !s108 1709040171.000000
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Mux3to_1_d.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Mux3to_1_d.v|
+!i113 1
+R6
+R7
+R8
+n@mux3to_1_d
+vpipeline_TopLevel
+R17
+!i10b 1
+!s100 aU9?OIV^ddP;0AlX[HX[32
+R2
+IPf]S3iZ2nl3Rl3mGBYQm43
+R3
+R0
+R12
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/pipeline_TopLevel.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/pipeline_TopLevel.v
+!i122 3
+L0 1 193
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/pipeline_TopLevel.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/pipeline_TopLevel.v|
+!i113 1
+R6
+R7
+R8
+npipeline_@top@level
+vRegister_File
+R17
+!i10b 1
+!s100 JkI]A0DV<SVURIPMHO6c>1
+R2
+I]2GHnGYKVno73XFc=KGgD2
+R3
+R0
+w1707692888
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Register_File (1).v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Register_File (1).v
+!i122 2
+L0 1 28
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Register_File (1).v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Register_File (1).v|
+!i113 1
+R6
+R7
+R8
+n@register_@file
+vsign_extention
+R17
+!i10b 1
+!s100 V92khLj6JAc5P6EFBmPF=0
+R2
+IWS43;P4]VL2eEfYSX[_Ug2
+R3
+R0
+w1707677247
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/sign_extention (1).v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/sign_extention (1).v
+!i122 1
+L0 1 8
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/sign_extention (1).v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/sign_extention (1).v|
+!i113 1
+R6
+R7
+R8
+vtestbench
+R1
+!i10b 1
+!s100 <>=hCeB^Y9nn=Q>dkg0CP2
+R2
+IM9OXCGU5C7Rlm3bmU0:161
+R3
+R0
+w1708027412
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/testbench.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/testbench.v
+!i122 23
+L0 2 74
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/testbench.v|
+!i113 1
+R6
+R7
+R8
+vWriteBack_Cycle
+!s110 1709040170
+!i10b 1
+!s100 [GBiaZg;R`@j_8T=h`J6o3
+R2
+IoEi8ZknIok4U^`8Hj7N?I0
+R3
+R0
+w1707677212
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/WriteBack_Cycle.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/WriteBack_Cycle.v
+!i122 0
+L0 1 24
+R4
+r1
+!s85 0
+31
+!s108 1709040170.000000
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/WriteBack_Cycle.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/WriteBack_Cycle.v|
+!i113 1
+R6
+R7
+R8
+n@write@back_@cycle
+vZero
+R1
+!i10b 1
+!s100 VIkhNFmHTo3=1YSGjSN0M3
+R2
+IgbCI[JcA9G=EXcZ`PECHU3
+R3
+R0
+w1707678349
+8C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Zero.v
+FC:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Zero.v
+!i122 22
+L0 1 7
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Zero.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining|C:/Users/ASUS/Desktop/comptition/Semicon-JoSDC-23/Pipelining/Zero.v|
+!i113 1
+R6
+R7
+R8
+n@zero

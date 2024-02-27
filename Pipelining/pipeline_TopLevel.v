@@ -1,13 +1,13 @@
-module pipeline_TopLevel(MAX10_CLK1_50 , reset,Pc_D);
+module pipeline_TopLevel(MAX10_CLK1_50 , reset, Pc_D);
 input  MAX10_CLK1_50 , reset ;
-output Pc_D;
+output [4:0] Pc_D;
+ 
+wire clk;
 
 pll1	pll1_inst (
 	.inclk0 ( MAX10_CLK1_50 ),
 	.c0 ( clk )
 	);
-
-wire clk;
 //(_D) : output of F_Cycle (in decode cycle)
 wire [31:0] instruction_D  ; 
 wire Branch_Dout,bne_Dout; // these signals come from control unit (output in same cycle without clock)
@@ -16,7 +16,8 @@ wire [4:0] rs1_D, rs2_D, rd_D, shamt_D;
 wire [15:0] imm_D;
 
 wire [31:0] targetAddress_D ;
-wire [4:0] Pc_Dout ,Pc_D;
+wire [4:0] Pc_Dout; 
+
 wire [5:0] opcode_D ;
 wire prediction_D , hit_D ;
 wire [3:0] GHR_value_D ;
@@ -31,6 +32,7 @@ wire [4:0] RegDistination_Eout ;/* output of the mux that select the correct reg
 wire [5:0] funct_E ;
 wire /*jump*/JumpAndLink_E,branch_E, MemRead_E, MemWrite_E, RegWrite_E, bne_E, RegDst_E, MemToReg_E,ALUSrc_E ;
 wire [2:0] ALUop_E;
+
 wire [4:0] Pc_E ;
 wire [3:0] Pc_Xor_GR_E ;
 wire stall_E ,hit_E ,real_Value_E,prediction_E ;
@@ -67,12 +69,9 @@ wire ForwardRs1, ForwardRs2;
 
 // is branch wires 
 wire [5:0] R31_Ex ;  /*jump*/
-wire flush_JRout, rtype_E;   /*jump*/
+wire flush_JRout, rtype;   /*jump*/
 
 
-// sim
-//wire hit ,Hit_ifReadFromE;
-//wire [31:0] BTB_wire_mem_F,BTB_wire_mem_E;
 
 // fetch Cycle :-->
 
@@ -91,10 +90,7 @@ fetch_Cycle F_c(clk,reset,IF_ID_write_HDU,pcwrite_HDU,real_Value_E ,branch_E,bne
 						prediction_D  , hit_D ,
 						GHR_value_D ,
 						Pc_D ,
-						instruction_D//,
-						//hit ,Hit_ifReadFromE,
-						//BTB_wire_mem_F,BTB_wire_mem_E
-						) ;
+						instruction_D) ;
 						 
 
 // Decode Cycle :-->
@@ -181,7 +177,6 @@ WriteBack_Cycle WB_c(
 );	
 
 
-
 // HDU :-->
 Hazard_Detection_Unit HD_u(
 				  RegDistination_Eout, rs1_D, rs2_D,
@@ -191,8 +186,8 @@ Hazard_Detection_Unit HD_u(
 				  flush ,flush_hit , selectCorrectTarget , selectCorrectPcPlus1 ,select_hit 
 );
 
-
 // Forwarding unit :-->
+
 forwarding_Unit F_u(
 				  RegDistination_M, RegDistination_WB, rs1_E, rs2_E,rs1_D, rs2_D,
 				  RegWrite_M, RegWrite_WB, Branch_Dout,bne_Dout ,
